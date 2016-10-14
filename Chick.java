@@ -9,10 +9,7 @@ class Chick implements Animal {
          mySound = sound; 
          mySound2= sound2;    
      }     
-     public Chick()     {         
-         myType = "little red";         
-         mySound = "cluck";     
-     }      
+     
      public String getSound(){
      	double x= Math.random();
      	if(x<0.5)
