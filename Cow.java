@@ -6,8 +6,8 @@ class Cow implements Animal {
          mySound = sound;     
      }     
      public Cow()     {         
-         myType = "cow";         
-         mySound = "moooo";     
+         myType = "bull";         
+         mySound = "Mess with the bull and you'll get the horns!!";     
      }      
      public String getSound(){
      	return mySound;
@@ -16,3 +16,4 @@ class Cow implements Animal {
      	return myType;
      } 
 }
+ 
